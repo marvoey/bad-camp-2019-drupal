@@ -1,0 +1,6 @@
+[submodule "bad-camp-2019-presentation"]
+	path = bad-camp-2019-presentation
+	url = git@github.com:marvoey/bad-camp-2019-presentation.git
+[submodule "docroot/presentation"]
+	path = docroot/presentation
+	url = git@github.com:marvoey/bad-camp-2019-presentation.git
