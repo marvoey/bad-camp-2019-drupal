@@ -1,10 +1,32 @@
-local:
-  host: local.badcamp
+prod:
+  host: badcamp.com
   options: {  }
   paths:
     drush-script: /var/www/drupalvm/badcamp/vendor/bin/drush
   root: /var/www/drupalvm/badcamp/docroot
-  uri: local.badcamp
+  uri: badcamp.com
+  user: vagrant
+  ssh:
+    options: '-o "SendEnv PHP_IDE_CONFIG PHP_OPTIONS XDEBUG_CONFIG" -o PasswordAuthentication=no -i "/Users/marvin.oey/.vagrant.d/insecure_private_key"'
+
+dev:
+  host: dev-badcamp.com
+  options: {  }
+  paths:
+    drush-script: /var/www/drupalvm/badcamp/vendor/bin/drush
+  root: /var/www/drupalvm/badcamp/docroot
+  uri: dev-badcamp.com
+  user: vagrant
+  ssh:
+    options: '-o "SendEnv PHP_IDE_CONFIG PHP_OPTIONS XDEBUG_CONFIG" -o PasswordAuthentication=no -i "/Users/marvin.oey/.vagrant.d/insecure_private_key"'
+
+stg:
+  host: stg-badcamp.com
+  options: {  }
+  paths:
+    drush-script: /var/www/drupalvm/badcamp/vendor/bin/drush
+  root: /var/www/drupalvm/badcamp/docroot
+  uri: stg-badcamp.com
   user: vagrant
   ssh:
     options: '-o "SendEnv PHP_IDE_CONFIG PHP_OPTIONS XDEBUG_CONFIG" -o PasswordAuthentication=no -i "/Users/marvin.oey/.vagrant.d/insecure_private_key"'
