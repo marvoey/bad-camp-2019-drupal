@@ -1,0 +1,42 @@
+<header id="header" class="header-narrow header-semi-transparent" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 1, "stickySetTop": "0"}'>
+    <div class="header-body">
+        <div class="header-container container">
+            <div class="header-row">
+                {% if logopath %}
+                    <div class="header-column">
+                        <div class="header-logo">
+                            <a href="{{ front_page }}">
+                                <img alt="Porto" width="131" height="40" src="{{ logopath }}">
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
+                <div class="header-column">
+                    <div class="header-row">
+                        <div class="header-nav header-nav-stripe">
+                            <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+                                <i class="fa fa-bars"></i>
+                            </button>
+
+                            {% if page.nav_top %}
+                                <div class="header-social-icons">
+                                    {{ page.nav_top }}
+                                </div>
+                            {% endif %}
+                            {% if page.primary_menu %}
+                            <div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1 collapse">
+                                {{ page.primary_menu }}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--breadcrumbs-->
+{% if page.breadcrumb %}
+    {{ page.breadcrumb }}
+{% endif %}
+

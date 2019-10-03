@@ -59,4 +59,5 @@ $sites['badcamp.com'] = 'default';
 $sites['dev-badcamp.com'] = 'dev-badcamp';
 $sites['stg-badcamp.com'] = 'stg-badcamp';
 $sites['local-badcamp.com'] = 'local-badcamp';
-$sites['overview-badcamp.com'] = 'overview-badcamp';
+$sites['overview-badcamp.com'] = 'overview';
+$sites['umami-badcamp.com'] = 'umami';

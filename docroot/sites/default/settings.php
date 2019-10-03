@@ -779,6 +779,4 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 
-$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
-$config_directories['sync'] = '../config/sync';
-$config_directories['local'] = '../config/local';
+$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync/badcamp';

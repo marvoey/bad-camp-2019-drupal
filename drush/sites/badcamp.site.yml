@@ -30,3 +30,14 @@ stg:
   user: vagrant
   ssh:
     options: '-o "SendEnv PHP_IDE_CONFIG PHP_OPTIONS XDEBUG_CONFIG" -o PasswordAuthentication=no -i "/Users/marvin.oey/.vagrant.d/insecure_private_key"'
+
+umami:
+  host: umami-badcamp.com
+  options: {  }
+  paths:
+    drush-script: /var/www/drupalvm/badcamp/vendor/bin/drush
+  root: /var/www/drupalvm/badcamp/docroot
+  uri: umami-badcamp.com
+  user: vagrant
+  ssh:
+    options: '-o "SendEnv PHP_IDE_CONFIG PHP_OPTIONS XDEBUG_CONFIG" -o PasswordAuthentication=no -i "/Users/marvin.oey/.vagrant.d/insecure_private_key"'

@@ -1,0 +1,23 @@
+{% set thumbnail = node.field_thumbnail %}
+<li class="col-md-4 isotope-item m-none p-none {{ content.field_portfolio_category | render | striptags | trim }}">
+    <div class="portfolio-item m-none">
+        <a href="{{ url }}">
+            <span class="thumb-info thumb-info-centered-info thumb-info-no-borders m-none">
+                <span class="thumb-info-wrapper">
+                    {% if content.field_thumbnail | render %}
+                        <img src="{{ file_url(node.field_thumbnail.entity.fileuri) }}" class="img-responsive" alt="">
+                    {% endif %}
+                    <span class="thumb-info-title">
+                        <span class="thumb-info-inner">{{ label }}</span>
+                        {% if content.field_portfolio_category | render %}
+                        <span class="thumb-info-type">{{ content.field_portfolio_category | render | striptags | trim }}</span>
+                        {% endif %}
+                    </span>
+                    <span class="thumb-info-action">
+                        <span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+                    </span>
+                </span>
+            </span>
+        </a>
+    </div>
+</li>

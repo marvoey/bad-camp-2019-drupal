@@ -1,0 +1,61 @@
+{% set images = node.field_image %}
+{% set createdDate = node.getCreatedTime|date('F j Y') %}
+<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme full-width owl-loaded owl-drag owl-carousel-init m-none mb-lg" data-plugin-options='{"items": 1, "loop": true, "nav": true, "dots": false, "animateOut": "fadeOut"}'>
+                        {% for image  in images %}
+                        <div>
+                            <img src="{{ file_url(image.entity.fileuri) }}" class="img-responsive" alt="">
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="portfolio-info mt-xl pull-left">
+                        <div class="row">
+                            <div class="col-md-12 center">
+                                <ul>
+                                    <li>
+                                        <a href="#" data-tooltip data-original-title="Like"><i class="fa fa-heart"></i>14</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-calendar"></i> {{ createdDate }}
+                                    </li>
+                                    {% if content.field_portfolio_category %}
+                                    <li>
+                                        <i class="fa fa-tags"></i> {{ content.field_portfolio_category }}
+                                    </li>
+                                    {% endif %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <h5 class="mt-lg mb-sm">{{ label }}</h5>
+                    {% if content.body %}
+                        {{ content.body }}
+                    {% endif %}
+                    {% if content.field_portfolio_link %}
+                    <a href="{{ content.field_portfolio_link | render | striptags | trim }}" class="btn btn-primary btn-icon"><i class="fa fa-external-link"></i>Live Preview</a>
+                    {% endif %}
+                    {% if content.field_portfolio_skills %}
+                        {{ content.field_portfolio_skills }}
+                    {% endif %}
+
+                </div>
+                <div class="col-md-5">
+                    {% if content.field_portfolio_client %}
+                    <ul class="portfolio-details mt-none mb-xl">
+                        <li>
+                            <h5 class="mt-lg mb-sm">Client</h5>
+                            {{ content.field_portfolio_client | render | striptags | trim }}</li>
+                    </ul>
+                    {% endif %}
+                    {{ drupal_region('region_author') }}
+                </div>
+
+            </div>
+        </div>
+

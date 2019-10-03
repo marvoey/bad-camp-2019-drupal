@@ -1,0 +1,33 @@
+<footer class="short" id="footer">
+    <div class="container">
+        <div class="row">
+            {% if page.footer_11 %}
+            <div class="col-sm-2">
+                {{ page.footer_11 }}
+            </div>
+            {% endif %}
+            {% if page.footer_12 %}
+            <div class="col-sm-2 col-sm-offset-6 align-right">
+                {{ page.footer_12 }}
+
+            </div>
+            {% endif %}
+            {% if page.footer_13 %}
+            <div class="col-sm-2 align-right">
+                {{ page.footer_13 }}
+            </div>
+            {% endif %}
+        </div>
+        {% if page.footer_bottom %}
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="solid">
+                <div class="row">
+                    {{ page.footer_bottom }}
+
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</footer>
