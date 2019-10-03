@@ -781,6 +781,4 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 
 $settings['file_public_path'] = 'sites/stg-badcamp/files';
 
-$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync';
-$config_directories['sync'] = '../config/sync';
-$config_directories['local'] = '../config/local';
+$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/workflow/sync';
