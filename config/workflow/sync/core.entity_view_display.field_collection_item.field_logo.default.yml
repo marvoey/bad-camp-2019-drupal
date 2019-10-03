@@ -1,0 +1,24 @@
+uuid: d8caa31f-fbe2-4f78-9ee0-064bfa550b0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_logo.field_image
+    - field_collection.field_collection.field_logo
+  module:
+    - image
+id: field_collection_item.field_logo.default
+targetEntityType: field_collection_item
+bundle: field_logo
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

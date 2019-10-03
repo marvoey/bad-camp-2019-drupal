@@ -779,4 +779,5 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 
-$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/sync/badcamp';
+$config_directories[CONFIG_SYNC_DIRECTORY] = '../config/workflow/sync';
+$settings['install_profile'] = 'standard';

@@ -1,0 +1,31 @@
+uuid: 832ff6f3-9213-461f-8dff-3fd22a05b293
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about_company:76884857-a7f1-4ba8-920a-93dc1f9c8153'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: aboutcompany
+theme: porto
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:76884857-a7f1-4ba8-920a-93dc1f9c8153'
+settings:
+  id: 'block_content:76884857-a7f1-4ba8-920a-93dc1f9c8153'
+  label: 'About Company'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

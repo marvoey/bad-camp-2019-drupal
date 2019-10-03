@@ -1,0 +1,31 @@
+uuid: ab15a747-9737-40a1-8193-87f179467f57
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonials
+    - field.field.block_content.testimonials.body
+    - field.field.block_content.testimonials.field_testimonials_description
+  module:
+    - field_collection
+    - text
+id: block_content.testimonials.default
+targetEntityType: block_content
+bundle: testimonials
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_testimonials_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+hidden: {  }

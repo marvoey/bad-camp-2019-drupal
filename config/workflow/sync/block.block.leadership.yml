@@ -1,0 +1,31 @@
+uuid: d750aef3-5b5b-4049-9308-30686e68126c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:53138719-c868-41c4-a5ef-7609280d740f'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: leadership
+theme: porto
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:53138719-c868-41c4-a5ef-7609280d740f'
+settings:
+  id: 'block_content:53138719-c868-41c4-a5ef-7609280d740f'
+  label: Leadership
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

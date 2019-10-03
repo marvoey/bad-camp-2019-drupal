@@ -1,0 +1,43 @@
+uuid: 858f2814-a54e-4135-8445-66e3eee93dd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_company
+    - field.field.block_content.about_company.body
+    - field.field.block_content.about_company.field_image
+    - field.field.block_content.about_company.field_image_two
+  module:
+    - image
+    - text
+id: block_content.about_company.default
+targetEntityType: block_content
+bundle: about_company
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_image_two:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

@@ -1,0 +1,31 @@
+uuid: 4da508eb-2774-4591-b84d-7c4702c15d8c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4cb35993-35b3-4405-b45a-418347c1b080'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: sayhellocontactpage
+theme: porto
+region: before_content
+weight: 0
+provider: null
+plugin: 'block_content:4cb35993-35b3-4405-b45a-418347c1b080'
+settings:
+  id: 'block_content:4cb35993-35b3-4405-b45a-418347c1b080'
+  label: 'Say Hello Contact Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

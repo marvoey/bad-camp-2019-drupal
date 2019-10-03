@@ -1,0 +1,19 @@
+uuid: 5e13e28f-71bc-4be5-8807-a6b9c18f7f08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portfolio_city
+    - node.type.portfolio
+id: node.portfolio.field_portfolio_city
+field_name: field_portfolio_city
+entity_type: node
+bundle: portfolio
+label: City
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

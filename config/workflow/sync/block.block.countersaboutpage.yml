@@ -1,0 +1,31 @@
+uuid: 10d21496-ac5c-46f0-af31-0258ea2b1db9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:62d893ed-0f2b-4cab-8262-c09c473181c4'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: countersaboutpage
+theme: porto
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:62d893ed-0f2b-4cab-8262-c09c473181c4'
+settings:
+  id: 'block_content:62d893ed-0f2b-4cab-8262-c09c473181c4'
+  label: 'Counters About Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

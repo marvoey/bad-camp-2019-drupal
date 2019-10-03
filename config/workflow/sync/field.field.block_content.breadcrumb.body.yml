@@ -1,0 +1,22 @@
+uuid: 95313887-1aed-45ca-ba76-544e9e74720d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.breadcrumb
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.breadcrumb.body
+field_name: body
+entity_type: block_content
+bundle: breadcrumb
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

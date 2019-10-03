@@ -1,0 +1,22 @@
+uuid: 0d157cd6-e0e6-48ca-96f5-9111f252394f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_company
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.about_company.body
+field_name: body
+entity_type: block_content
+bundle: about_company
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

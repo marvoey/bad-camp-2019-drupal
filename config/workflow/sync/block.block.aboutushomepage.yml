@@ -1,0 +1,31 @@
+uuid: 00c6dc9a-ef26-40b9-8a4b-0585b46c9387
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b3b3dc00-4088-4117-bc03-7d6c15d9f584'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: aboutushomepage
+theme: porto
+region: content
+weight: 2
+provider: null
+plugin: 'block_content:b3b3dc00-4088-4117-bc03-7d6c15d9f584'
+settings:
+  id: 'block_content:b3b3dc00-4088-4117-bc03-7d6c15d9f584'
+  label: 'About us Home Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

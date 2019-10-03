@@ -1,0 +1,18 @@
+uuid: 2b808e9a-e0a0-4801-92db-b2dc4fb0eb3f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - porto
+id: pagetitle
+theme: porto
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

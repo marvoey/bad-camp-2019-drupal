@@ -1,0 +1,32 @@
+uuid: 4cff5358-f4d4-491c-aebf-87b412e6a531
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_services
+    - field.field.block_content.about_services.body
+    - field.field.block_content.about_services.field_image
+  module:
+    - image
+    - text
+id: block_content.about_services.default
+targetEntityType: block_content
+bundle: about_services
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden: {  }

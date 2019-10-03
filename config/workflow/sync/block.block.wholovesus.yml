@@ -1,0 +1,31 @@
+uuid: fd33d8b3-1980-4cc3-985d-5b0cd2ac6244
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:testimonials:bb8f555e-5e59-46d0-8725-b9412e199493'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: wholovesus
+theme: porto
+region: content
+weight: 5
+provider: null
+plugin: 'block_content:bb8f555e-5e59-46d0-8725-b9412e199493'
+settings:
+  id: 'block_content:bb8f555e-5e59-46d0-8725-b9412e199493'
+  label: 'Who Loves Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

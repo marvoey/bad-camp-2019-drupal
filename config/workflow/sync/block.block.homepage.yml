@@ -1,0 +1,26 @@
+uuid: 35f1ca46-69f6-439c-9a52-604ef52db89f
+langcode: en
+status: true
+dependencies:
+  module:
+    - md_slider
+    - system
+  theme:
+    - porto
+id: homepage
+theme: porto
+region: slide_show
+weight: 0
+provider: null
+plugin: 'md_slider_block:home_page'
+settings:
+  id: 'md_slider_block:home_page'
+  label: 'Home Page'
+  provider: md_slider
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

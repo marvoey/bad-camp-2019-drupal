@@ -1,0 +1,31 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://logo.png'
+favicon:
+  use_default: 1
+breadcrumbs: 0
+loader: 0
+rtl: 0
+header_option: none
+page_header_option: none
+page_header_color_option: none
+below_slider_option: 0
+h_semi_transparent_option: 0
+footer_option: none
+footer_color_option: none
+header_sticky_option: none
+navigation_option: none
+layout_option: widescreen
+skin_option: none
+contact_option: ''
+contact_about_link: ''
+contact_about: ''
+contact_us_link: ''
+contact_us: ''
+your_css: ''
+custom_color: '#ccc'

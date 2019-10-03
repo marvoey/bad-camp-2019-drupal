@@ -1,0 +1,25 @@
+uuid: 407e424e-9b50-40a6-9cd9-7d646a7e2e68
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b6694ed4-f7d4-4d7f-b53a-981a7968d73b'
+  module:
+    - block_content
+  theme:
+    - porto
+id: author
+theme: porto
+region: region_author
+weight: 0
+provider: null
+plugin: 'block_content:b6694ed4-f7d4-4d7f-b53a-981a7968d73b'
+settings:
+  id: 'block_content:b6694ed4-f7d4-4d7f-b53a-981a7968d73b'
+  label: Author
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

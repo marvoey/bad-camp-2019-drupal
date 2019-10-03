@@ -1,0 +1,31 @@
+uuid: db4d3dca-c34b-42b1-8e5d-33028767a6bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clients
+    - field.field.block_content.clients.body
+    - field.field.block_content.clients.field_logo
+  module:
+    - field_collection
+    - text
+id: block_content.clients.default
+targetEntityType: block_content
+bundle: clients
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_logo:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+hidden: {  }

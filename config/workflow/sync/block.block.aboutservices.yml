@@ -1,0 +1,31 @@
+uuid: 73ffc7f0-35bc-43d4-a055-f7b66d7ded54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about_services:425d9187-0303-4fbf-93d7-38b4c72f3afc'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: aboutservices
+theme: porto
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:425d9187-0303-4fbf-93d7-38b4c72f3afc'
+settings:
+  id: 'block_content:425d9187-0303-4fbf-93d7-38b4c72f3afc'
+  label: 'About Services'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /services
+    negate: false
+    context_mapping: {  }

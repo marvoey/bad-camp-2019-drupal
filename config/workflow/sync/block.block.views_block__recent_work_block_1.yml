@@ -1,0 +1,30 @@
+uuid: 41e5dcb3-3d51-49c9-8ff9-332a2f958124
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_work
+  module:
+    - system
+    - views
+  theme:
+    - porto
+id: views_block__recent_work_block_1
+theme: porto
+region: content
+weight: 4
+provider: null
+plugin: 'views_block:recent_work-block_1'
+settings:
+  id: 'views_block:recent_work-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

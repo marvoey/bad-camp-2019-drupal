@@ -1,0 +1,22 @@
+uuid: 48538485-dd3e-4881-bf5c-e45a4547cc2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.breadcrumb_page_detail
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.breadcrumb_page_detail.body
+field_name: body
+entity_type: block_content
+bundle: breadcrumb_page_detail
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

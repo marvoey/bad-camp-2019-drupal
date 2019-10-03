@@ -1,0 +1,19 @@
+uuid: c82bc1f9-6173-499b-b8c6-e7be207c7b5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_job
+    - field_collection.field_collection.field_testimonials_description
+id: field_collection_item.field_testimonials_description.field_job
+field_name: field_job
+entity_type: field_collection_item
+bundle: field_testimonials_description
+label: Job
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

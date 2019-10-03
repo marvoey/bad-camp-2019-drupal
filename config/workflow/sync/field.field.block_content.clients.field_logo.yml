@@ -1,0 +1,23 @@
+uuid: 72f621fd-efc5-41a2-a817-8e8c8aa7e8aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clients
+    - field.storage.block_content.field_logo
+  module:
+    - field_collection
+id: block_content.clients.field_logo
+field_name: field_logo
+entity_type: block_content
+bundle: clients
+label: Logo
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

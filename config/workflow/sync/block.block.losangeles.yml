@@ -1,0 +1,25 @@
+uuid: 8d760582-1272-4aaf-86d1-19f7af926c41
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:586df733-2491-4f0c-9c65-d9742c99240b'
+  module:
+    - block_content
+  theme:
+    - porto
+id: losangeles
+theme: porto
+region: footer_13
+weight: -14
+provider: null
+plugin: 'block_content:586df733-2491-4f0c-9c65-d9742c99240b'
+settings:
+  id: 'block_content:586df733-2491-4f0c-9c65-d9742c99240b'
+  label: 'Los Angeles'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 60fb5011-2b82-4ac5-8582-f3e31b5c563d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f4cf7cb1-f28c-43ab-85d0-651f0035f8cb'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: howwedo
+theme: porto
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:f4cf7cb1-f28c-43ab-85d0-651f0035f8cb'
+settings:
+  id: 'block_content:f4cf7cb1-f28c-43ab-85d0-651f0035f8cb'
+  label: 'How We Do'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /services
+    negate: false
+    context_mapping: {  }

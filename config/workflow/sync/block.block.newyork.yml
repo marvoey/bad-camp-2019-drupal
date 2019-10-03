@@ -1,0 +1,25 @@
+uuid: 22fb250b-5f0e-47ba-a8e8-79620bbb0153
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e8fc731a-5b9d-4c2b-8589-7c524c6298b3'
+  module:
+    - block_content
+  theme:
+    - porto
+id: newyork
+theme: porto
+region: footer_12
+weight: -15
+provider: null
+plugin: 'block_content:e8fc731a-5b9d-4c2b-8589-7c524c6298b3'
+settings:
+  id: 'block_content:e8fc731a-5b9d-4c2b-8589-7c524c6298b3'
+  label: 'New York'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: af43e0c3-1b50-4787-a50f-120d74abc912
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_description
+    - field_collection.field_collection.field_testimonials_description
+  module:
+    - text
+id: field_collection_item.field_testimonials_description.field_description
+field_name: field_description
+entity_type: field_collection_item
+bundle: field_testimonials_description
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

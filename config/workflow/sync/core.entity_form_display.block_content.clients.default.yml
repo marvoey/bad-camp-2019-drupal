@@ -1,0 +1,40 @@
+uuid: 92f8aa1b-a681-4103-8487-9d250bdf82fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clients
+    - field.field.block_content.clients.body
+    - field.field.block_content.clients.field_logo
+  module:
+    - field_collection
+    - text
+id: block_content.clients.default
+targetEntityType: block_content
+bundle: clients
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_logo:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

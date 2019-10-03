@@ -1,0 +1,25 @@
+uuid: 0ef296f0-4799-4690-932c-bc00c6dae3ab
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo_footer:d183e269-6172-42a8-a329-dffeced7cbf2'
+  module:
+    - block_content
+  theme:
+    - porto
+id: logofooter
+theme: porto
+region: footer_11
+weight: 0
+provider: null
+plugin: 'block_content:d183e269-6172-42a8-a329-dffeced7cbf2'
+settings:
+  id: 'block_content:d183e269-6172-42a8-a329-dffeced7cbf2'
+  label: 'Logo Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 9a09d77e-9947-4486-a8dc-3bedcebeede3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:breadcrumb:dfc2ea3a-bb9c-48e7-aab0-1e1331aad797'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: breadcrumbuserpage
+theme: porto
+region: breadcrumb
+weight: -12
+provider: null
+plugin: 'block_content:dfc2ea3a-bb9c-48e7-aab0-1e1331aad797'
+settings:
+  id: 'block_content:dfc2ea3a-bb9c-48e7-aab0-1e1331aad797'
+  label: 'Breadcrumb User Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/user\r\n/user/*"
+    negate: false
+    context_mapping: {  }

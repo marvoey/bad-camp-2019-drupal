@@ -1,0 +1,41 @@
+uuid: 16f56185-cc2d-439e-abf7-52b8a4fe564c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.breadcrumb
+    - field.field.block_content.breadcrumb.body
+    - field.field.block_content.breadcrumb.field_background_image
+    - field.field.block_content.breadcrumb.field_title
+  module:
+    - image
+    - text
+id: block_content.breadcrumb.default
+targetEntityType: block_content
+bundle: breadcrumb
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_background_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

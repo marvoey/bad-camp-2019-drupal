@@ -1,0 +1,31 @@
+uuid: 469e472a-8b28-43d5-878e-a8a6af4c3bbd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7d17f022-1d92-453b-be30-0005d28926f4'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: mapcontactpage
+theme: porto
+region: after_content
+weight: 0
+provider: null
+plugin: 'block_content:7d17f022-1d92-453b-be30-0005d28926f4'
+settings:
+  id: 'block_content:7d17f022-1d92-453b-be30-0005d28926f4'
+  label: 'Map Contact Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

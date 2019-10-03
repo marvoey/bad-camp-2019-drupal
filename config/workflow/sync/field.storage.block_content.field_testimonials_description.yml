@@ -1,0 +1,19 @@
+uuid: 716afa80-e6a3-41bf-8f30-9a8564f4a978
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_collection
+id: block_content.field_testimonials_description
+field_name: field_testimonials_description
+entity_type: block_content
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

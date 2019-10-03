@@ -1,0 +1,31 @@
+uuid: ce158202-3fdc-4c03-8d6f-f8510df79bf6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b42f163b-29e5-489c-b905-4fa2b7823281'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: wecanhelpyou
+theme: porto
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:b42f163b-29e5-489c-b905-4fa2b7823281'
+settings:
+  id: 'block_content:b42f163b-29e5-489c-b905-4fa2b7823281'
+  label: 'We can help you'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /services
+    negate: false
+    context_mapping: {  }

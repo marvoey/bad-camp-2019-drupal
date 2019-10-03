@@ -1,0 +1,52 @@
+uuid: acc4fb23-7794-495b-8542-7778af3fd504
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.breadcrumb
+    - field.field.block_content.breadcrumb.body
+    - field.field.block_content.breadcrumb.field_background_image
+    - field.field.block_content.breadcrumb.field_title
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.breadcrumb.default
+targetEntityType: block_content
+bundle: breadcrumb
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_background_image:
+    weight: 28
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_title:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

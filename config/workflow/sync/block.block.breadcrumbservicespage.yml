@@ -1,0 +1,31 @@
+uuid: 1f492fa5-3e32-49ce-9ad3-537deca24d94
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:breadcrumb:a67e7dd6-620a-41eb-8273-75f31e0ce702'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: breadcrumbservicespage
+theme: porto
+region: breadcrumb
+weight: -14
+provider: null
+plugin: 'block_content:a67e7dd6-620a-41eb-8273-75f31e0ce702'
+settings:
+  id: 'block_content:a67e7dd6-620a-41eb-8273-75f31e0ce702'
+  label: 'Breadcrumb Services Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /services
+    negate: false
+    context_mapping: {  }

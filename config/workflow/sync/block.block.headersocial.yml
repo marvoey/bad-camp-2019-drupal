@@ -1,0 +1,25 @@
+uuid: cedff763-7454-4f68-933d-ad87a0fa6dc6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d8a2383c-e22f-4702-897e-e5dbd8ba98ca'
+  module:
+    - block_content
+  theme:
+    - porto
+id: headersocial
+theme: porto
+region: nav_top
+weight: 0
+provider: null
+plugin: 'block_content:d8a2383c-e22f-4702-897e-e5dbd8ba98ca'
+settings:
+  id: 'block_content:d8a2383c-e22f-4702-897e-e5dbd8ba98ca'
+  label: 'Header Social'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

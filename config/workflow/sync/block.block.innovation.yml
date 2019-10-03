@@ -1,0 +1,31 @@
+uuid: dcbd9af3-6355-4824-954e-68106e8e706f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:innovation:7beaab27-aefa-4ee9-8ef7-6a3020dce58a'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: innovation
+theme: porto
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:7beaab27-aefa-4ee9-8ef7-6a3020dce58a'
+settings:
+  id: 'block_content:7beaab27-aefa-4ee9-8ef7-6a3020dce58a'
+  label: Innovation
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /services
+    negate: false
+    context_mapping: {  }

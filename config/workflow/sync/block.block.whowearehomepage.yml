@@ -1,0 +1,31 @@
+uuid: 65793a9f-2449-412b-8e8c-0881e9453fe2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9a912c85-c233-4f83-823e-7b02b05ed743'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: whowearehomepage
+theme: porto
+region: content
+weight: 3
+provider: null
+plugin: 'block_content:9a912c85-c233-4f83-823e-7b02b05ed743'
+settings:
+  id: 'block_content:9a912c85-c233-4f83-823e-7b02b05ed743'
+  label: 'Who We Are Home Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

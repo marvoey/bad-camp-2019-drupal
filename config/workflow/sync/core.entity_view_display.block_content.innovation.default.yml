@@ -1,0 +1,32 @@
+uuid: 12589013-cf90-4e06-b291-28112b435f99
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.innovation
+    - field.field.block_content.innovation.body
+    - field.field.block_content.innovation.field_image
+  module:
+    - image
+    - text
+id: block_content.innovation.default
+targetEntityType: block_content
+bundle: innovation
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden: {  }

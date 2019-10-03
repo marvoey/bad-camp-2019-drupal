@@ -55,9 +55,14 @@
  * @see \Drupal\Core\DrupalKernel::getSitePath()
  * @see https://www.drupal.org/documentation/install/multi-site
  */
-$sites['badcamp.com'] = 'default';
-$sites['dev-badcamp.com'] = 'dev-badcamp';
-$sites['stg-badcamp.com'] = 'stg-badcamp';
+
+// Sites for overview
 $sites['local-badcamp.com'] = 'local-badcamp';
 $sites['overview-badcamp.com'] = 'overview';
 $sites['umami-badcamp.com'] = 'umami';
+
+// Sites for workflow
+$sites['badcamp.com'] = 'default';
+$sites['dev-badcamp.com'] = 'dev-badcamp';
+$sites['stg-badcamp.com'] = 'stg-badcamp';
+

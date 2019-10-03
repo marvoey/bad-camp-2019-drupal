@@ -1,0 +1,22 @@
+uuid: 7eab3bbb-6e96-485c-8151-08bcd7edb356
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.breadcrumb_page_detail
+    - field.field.block_content.breadcrumb_page_detail.body
+  module:
+    - text
+id: block_content.breadcrumb_page_detail.default
+targetEntityType: block_content
+bundle: breadcrumb_page_detail
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

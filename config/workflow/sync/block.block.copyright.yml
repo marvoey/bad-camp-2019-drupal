@@ -1,0 +1,25 @@
+uuid: 872a753b-cc5e-408d-a0a0-018677b6143b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4c48b1f1-8e61-4be1-ac83-855f1dffe524'
+  module:
+    - block_content
+  theme:
+    - porto
+id: copyright
+theme: porto
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:4c48b1f1-8e61-4be1-ac83-855f1dffe524'
+settings:
+  id: 'block_content:4c48b1f1-8e61-4be1-ac83-855f1dffe524'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
